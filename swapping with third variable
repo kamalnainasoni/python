@@ -1,0 +1,15 @@
+a=4
+b=6
+a=int(a)
+b=int(b)
+print("before swapping")
+
+print(a)
+print(b)
+
+c=a
+a=b
+b=c
+print("after swapping")
+print(a)
+print(b)
