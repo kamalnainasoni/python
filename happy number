@@ -1,0 +1,22 @@
+n=int(input("enter any number"))
+temp=n
+x=1
+rem=sum=0
+while x:
+    rem=n%10
+    sum=sum+(rem*rem)
+    print(sum)
+    n=n//10
+    if len(str(sum))>1 and n>0:
+        x=1
+    else:
+        x=0
+
+result=sum
+
+    
+
+if result==1:
+    print(str(temp)+"is a happy number")
+elif result!=1:
+    print(str(temp)+"is not a happy number")
