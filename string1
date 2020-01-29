@@ -1,0 +1,7 @@
+str=input("enter a string:")
+total=0
+
+for i in range(len(str)):
+    total=total+1
+
+print("count of all characters:" , total)
